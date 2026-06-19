@@ -51,6 +51,7 @@ This analysis helped in understanding the dataset structure before implementing 
 * README.md
 * Social_Media_Post_Caption_Generator.ipynb
 * Social_Media_Post_Caption_Generator.pdf
+* instagram-posts.json
 
 ## How the Project Works
 
