@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is a Social Media Post & Caption Generator developed using Python and Pandas. The project uses a social media dataset containing captions from influencers belonging to different categories such as Beauty, Fitness, Food, and Technology.
+This project is a Social Media Post & Caption Generator developed using Python, Pandas, and Streamlit. The project uses a social media dataset containing captions from influencers belonging to different categories such as Beauty, Fitness, Food, and Technology.
 
 The user selects a category, and the program extracts captions from influencers in that category and generates a random caption.
 
@@ -29,7 +29,7 @@ The user selects a category, and the program extracts captions from influencers 
 * Random caption generation
 * User category selection
 * Case-insensitive input handling
-* Interactive command-line interface
+* * Interactive web-based user interface using Streamlit
 
 ## Dataset Analysis
 
@@ -72,19 +72,27 @@ This analysis helped in understanding the dataset structure before implementing 
 
 ## Sample Workflow
 
+User selects a category from the dropdown menu.
+
+Example:
+
 User Input:
 
 Beauty
 
 Output:
 
-Generated Caption:
+✨ Generated Caption:
+"Your randomly selected social media caption appears here."
+
+## Application Screenshot
+
+![Application Screenshot](app_screenshot.png)
 
 ## Future Improvements
 
 * Add more social media categories.
 * Generate AI-based captions instead of selecting existing captions.
-* Build a web-based user interface.
 * Add keyword-based caption filtering.
 * Integrate machine learning models for advanced caption generation.
 
