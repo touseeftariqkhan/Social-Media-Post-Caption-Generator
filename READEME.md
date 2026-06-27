@@ -12,6 +12,7 @@ The user selects a category, and the program extracts captions from influencers 
 * Pandas
 * Google Colab
 * JSON Dataset
+* Streamlit
 
 ## Dataset Categories
 
@@ -29,7 +30,7 @@ The user selects a category, and the program extracts captions from influencers 
 * Random caption generation
 * User category selection
 * Case-insensitive input handling
-* * Interactive web-based user interface using Streamlit
+* Interactive web-based user interface using Streamlit
 
 ## Dataset Analysis
 
@@ -52,7 +53,8 @@ This analysis helped in understanding the dataset structure before implementing 
 * Social_Media_Post_Caption_Generator.ipynb
 * Social_Media_Post_Caption_Generator.pdf
 * instagram-posts.json
-
+* app.py
+* app_screenshot.png
 ## How the Project Works
 
 1. Load the JSON dataset using Pandas.
@@ -69,6 +71,10 @@ This analysis helped in understanding the dataset structure before implementing 
 3. Run all notebook cells.
 4. Enter a category (Beauty, Fitness, Food, or Technology).
 5. View the generated caption.
+
+## Frontend
+
+A user-friendly web interface was developed using Streamlit. The application allows users to select a category and generate random social media captions through an interactive graphical interface.
 
 ## Sample Workflow
 
